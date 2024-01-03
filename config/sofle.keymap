@@ -121,11 +121,11 @@
             //              |      |       |       |      |      |   |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1            &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4                             &trans     &trans    &trans    &trans     &trans   &trans
-&trans      &kp INS          &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)  &kp LS(LG(RIGHT))  &trans                                   &kp PG_UP  &trans    &kp UP    &trans     &kp N0   &trans
-&trans      &kp LA(LS(TAB))  &kp LG(LEFT_ARROW)      &kp LG(DOWN)      &kp LG(RIGHT)      &kp LA(TAB)                              &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
-&trans      &kp K_UNDO       &kp K_CUT               &kp K_COPY        &kp K_PASTE        &trans        &trans    &rgb_ug RGB_TOG  &trans     &trans    &trans    &trans     &trans   &trans
-                             &trans                  &trans            &trans             &trans        &trans    &trans           &trans     &trans    &trans    &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1            &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4                             &trans     &trans    &trans    &trans     &trans   &trans
+&trans      &kp INS       &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)  &kp LS(LG(RIGHT))  &kp TAB                                  &kp PG_UP  &trans    &kp UP    &trans     &kp N0   &trans
+&trans      &kp LEFT_ALT  &kp LG(LEFT_ARROW)      &kp LG(DOWN)      &kp LG(RIGHT)      &kp LS(TAB)                              &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
+&trans      &kp K_UNDO    &kp K_CUT               &kp K_COPY        &kp K_PASTE        &trans        &trans    &rgb_ug RGB_TOG  &trans     &trans    &trans    &trans     &trans   &trans
+                          &trans                  &trans            &trans             &trans        &trans    &trans           &trans     &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
